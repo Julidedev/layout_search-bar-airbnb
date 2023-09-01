@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Times New Roman;
+  font-family: "Times New Roman";
+    src: url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.eot");
+    src: url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.svg#Times New Roman")format("svg");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.search-bar {
+  height: 900px;
+  width: 70px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.search-input {
+  height: 900px;
+  width: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+  font-weight: 300;
+}
+
+
+.search-input[data-qa="keypress"]:not(:focus):hover {
+  border-color: #FFFFFF;
+}
+
+
+.search-input[data-qa="keypress"]:not(:focus):hover {
+  border-color: #3D4E611A;
+}
+
+
+.search-input[data-qa="keypress"]:focus {
+  border-color: #E1E7ED;
+  outline: none;
+}
